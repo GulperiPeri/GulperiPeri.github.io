@@ -28,11 +28,10 @@ body {
   padding: 10px 0;
   background-color: #174180;
   color: #fff;
-  display: frex;
 }
 
 .header-logo {
-  float: left;
+  display: frex;
 }
 
 .menu {
@@ -40,7 +39,6 @@ body {
   padding: 0;
   list-style: none;
   font-size: 0;
-  display: frex;
 }
 
 .menu-item {
