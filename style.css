@@ -16,12 +16,37 @@ body {
 .container {
   width: 1140px;
   margin: 0 auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
-.header {
+.header a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .header-navigation {
+  padding: 10px 0;
   background-color: #174180;
+  color: #fff;
+}
+
+.header-logo {
+  float: left;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-link {
+  text-transform: uppercase;
+  padding: 0 15px;
+  font-size: 16px;
 }
