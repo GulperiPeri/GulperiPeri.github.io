@@ -14,8 +14,10 @@ body {
 }
 
 .container {
+  /*min-height: 30px;*/
   width: 1140px;
   margin: 0 auto;
+
   /*border: 1px solid black;*/
 }
 
@@ -25,16 +27,32 @@ body {
 }
 
 .header-navigation {
-  padding: 10px 0;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #174180;
   color: #fff;
 }
 
 .header-logo {
-  display: frex;
+  width: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 
+.header-logo img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
 .menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
