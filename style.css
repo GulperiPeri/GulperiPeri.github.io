@@ -14,45 +14,36 @@ body {
 }
 
 .container {
-  /*min-height: 30px;*/
   width: 1140px;
   margin: 0 auto;
-
-  /*border: 1px solid black;*/
 }
 
+
 .header a {
-  color: #fff;
+  color: rgb(246, 242, 242);
   text-decoration: none;
 }
 
 .header-navigation {
-  padding: 5px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #174180;
-  color: #fff;
-}
+  background-color: #1450e7;
+  color: rgb(7, 7, 7);
+
 
 .header-logo {
-  width: 10px;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 500;
-  letter-spacing: 1px;
+ float: left;
+ margin-right: 300px;
 }
 
 .header-logo img {
-  width: 60px;
+  width: 100px;
   height: 60px;
   object-fit: contain;
 }
+
 .menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -68,3 +59,5 @@ body {
   padding: 0 15px;
   font-size: 16px;
 }
+
+
