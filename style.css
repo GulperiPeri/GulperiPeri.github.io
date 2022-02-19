@@ -14,10 +14,11 @@ body {
 }
 
 .container {
+  float: left;
   width: 1140px;
   margin: 0 auto;
+  padding: 0 15px;
 }
-
 
 .header a {
   color: rgb(246, 242, 242);
@@ -26,15 +27,17 @@ body {
 
 .header-navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: fspace between;
   align-items: center;
   background-color: #1450e7;
   color: rgb(7, 7, 7);
-
+  padding: 5px;
+}
 
 .header-logo {
- float: left;
- margin-right: 300px;
+  float: left;
+  width: 20%;
+  margin-right: 200px;
 }
 
 .header-logo img {
@@ -44,10 +47,14 @@ body {
 }
 
 .menu {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 0;
 }
 
 .menu-item {
@@ -56,8 +63,12 @@ body {
 
 .menu-link {
   text-transform: uppercase;
-  padding: 0 15px;
+  padding: 15px;
   font-size: 16px;
+  line-height: 16px;
+  transition: background-color 0.4s;
 }
 
-
+.menu-link:hover {
+  background-color: var(--accent-light);
+}
